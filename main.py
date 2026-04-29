@@ -2,6 +2,7 @@ from utils.loader import load_contacts
 from utils.validator import validate_phone
 from utils.message_generator import generate_message
 from utils.sms_sender import send_sms
+from utils.reporter import generate_report
 
 df = load_contacts("data/contacts.csv")
 
@@ -37,3 +38,5 @@ print(f"Sent:    {sent_count}")
 print(f"Failed:  {failed_count}")
 print(f"Skipped: {skipped_count}")
 print(f"\nLog saved to: data/sms_log.csv")
+
+generate_report()

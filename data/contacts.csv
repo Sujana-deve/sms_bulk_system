@@ -1,6 +1,6 @@
 name,phone,business_type,business_name,city
 Ram Sharma,9701234567,Restaurant,Sharma Kitchen,Pokhara
-Sujana Sharma,cafe,9866745673,kathmandu
+Sujana Sharma,cafe aesthetic,9866745673,kathmandu
 Sita Thapa,9802345678,Clothing Store,Thapa Boutique,Pokhara
 Bikash Gurung,9803456789,Pharmacy,Gurung Medicals,Pokhara
 Anita Rai,9804567890,Electronics,Rai Electronics,Pokhara
@@ -12,3 +12,4 @@ Nabin Karki,9809012345,Travel Agency,Karki Travels,Pokhara
 Priya Adhikari,9800123456,Stationery,Adhikari Stationery,Pokhara
 invalid_person,98123,Cafe,Bad Cafe,Pokhara
 smriti maharjan,9805452805,gamebox,pokhara
+Abc sharma,9705643445,House of bakery,pokhara
