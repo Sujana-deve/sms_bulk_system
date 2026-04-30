@@ -24,3 +24,7 @@ python main.py
 ## Note
 
 Runs in simulate mode by default — no real SMS is sent. Mock contact data is used for this project. Invalid phone numbers are skipped automatically.
+
+##
+The field for sparrow sms integration is added so once api token is accessed
+we will be able to send real sms 
