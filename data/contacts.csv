@@ -1,15 +1,16 @@
-name,phone,business_type,business_name,city
-Ram Sharma,9801234567,Restaurant,Sharma Kitchen,Pokhara
-Sita Thapa,9802345678,Clothing Store,Thapa Boutique,Pokhara
-Bikash Gurung,9803456789,Pharmacy,Gurung Medicals,Pokhara
-Anita Rai,9804567890,Electronics,Rai Electronics,Pokhara
-Suresh Poudel,9805678901,Grocery,Poudel Mart,Pokhara
-Maya Shrestha,9806789012,Beauty Salon,Maya Beauty,Pokhara
-Dipak Tamang,9807890123,Hardware Store,Tamang Hardware,Pokhara
-Kopila Magar,9808901234,Bakery,Kopila Bakery,Pokhara
-Nabin Karki,9809012345,Travel Agency,Karki Travels,Pokhara
-Priya Adhikari,9800123456,Stationery,Adhikari Stationery,Pokhara
-invalid_person,98123,Cafe,Bad Cafe,Pokhara
-smriti maharjan,9705452805,Cafe,Smriti Cafe,Pokhara
-Test Person,9801111111,Cafe,,Pokhara
-,9801111111,,,
+name,phone,business_name
+" sujana sharma ",9812345678,pizza hut
+"RAM BAHADUR",+9779856781234,ram electronics
+john doe,98-1234-5678,john cafe
+,9823456789,empty name shop
+Priya Thapa,9823456789,priya boutique
+"  ",9834567890,blank name store
+123,9845678901,number name biz
+Maya Gurung,98456789,maya store
+Hari Prasad,9867890123,HARI TRADERS
+binod thapa,9878901234,binod hardware
+Sunita Rai,ABCD123456,sunita boutique
+anita sharma,9890123456,
+Kavya Shrestha,9801234567,kavya sweets
+Ram Bahadur,9856781234,ram electronics
+deepak rana,9812340000,
