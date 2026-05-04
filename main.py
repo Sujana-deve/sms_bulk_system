@@ -3,8 +3,11 @@ from utils.validator import validate_phone, validate_name, validate_business_nam
 from utils.message_generator import generate_message
 from utils.sms_sender import send_sms
 from utils.reporter import generate_report
+from utils.loader import load_contacts,preprocess_contacts,validate_csv_structure
 
 # ── Load ──────────────────────────────────────────────
+df = load_contacts("data/contacts.csv")
+validate_csv_structure(df)
 df = load_contacts("data/contacts.csv")
 
 # ── Preprocess ────────────────────────────────────────

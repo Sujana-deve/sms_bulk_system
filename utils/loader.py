@@ -61,3 +61,22 @@ def _clean_phone(phone):
     phone_str = ''.join(c for c in phone_str if c.isdigit())
 
     return phone_str
+
+def validate_csv_structure(df):
+    # these are the exact columns our pipeline depends on
+    required_columns = {"name", "phone", "business_name"}
+
+    # get the actual columns from the dataframe as a set
+    actual_columns = set(df.columns.str.strip().str.lower())
+
+    # find which required columns are missing
+    missing = required_columns - actual_columns
+
+    if missing:
+        raise ValueError(
+            f"CSV is missing required column(s): {', '.join(missing)}\n"
+            f"Expected: {', '.join(required_columns)}\n"
+            f"Found:    {', '.join(actual_columns)}"
+        )
+
+    print("CSV structure check passed ✓")
