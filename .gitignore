@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 data/sms_log.csv
 reports/report.html
+.env

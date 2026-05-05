@@ -16,7 +16,7 @@ def preprocess_contacts(df):
     df.columns = df.columns.str.strip()
 
     # strip leading/trailing spaces from all string cells
-    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
 
     # replace truly empty strings and whitespace-only values with NaN
     df = df.replace(r'^\s*$', pd.NA, regex=True)
