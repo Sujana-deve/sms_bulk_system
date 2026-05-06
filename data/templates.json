@@ -1,0 +1,7 @@
+{
+  "restaurant": "Hi {name}, we help restaurants like {business_name} attract more customers through digital marketing. Interested? Call us!",
+  "hardware": "Hi {name}, we offer affordable marketing solutions for hardware stores like {business_name}. Let's grow together!",
+  "retail": "Hi {name}, boost your retail business {business_name} with our proven marketing strategies. Contact us today!",
+  "it": "Hi {name}, we help IT companies like {business_name} generate more leads through targeted outreach. Let's connect!",
+  "default": "Hi {name}, we'd love to help {business_name} grow with our digital marketing services. Reach out to learn more!"
+}
